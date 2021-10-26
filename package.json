@@ -1,0 +1,20 @@
+{
+  "name": "sms-api",
+  "version": "1.0.0",
+  "description": "student management system",
+  "main": "src/app.ts",
+  "repository": "https://github.com/ashkar93/sms-api",
+  "author": "Ashkar",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/app.ts",
+    "build": "rimraf dist && tsc",
+    "start": "node ./dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "rimraf": "^3.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
