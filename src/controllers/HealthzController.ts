@@ -6,7 +6,7 @@ export class HealthzController {
 
     @Get('/')
     checkHealth() {
-        return {healthy: true}
+        return {health: "healthy"}
     }
 
 }
